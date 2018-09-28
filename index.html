@@ -1,14 +1,22 @@
 <!doctype html>
 <html>
-    <meta name="keywords" content="London">
-    <link href="style.css" type="text/css" rel="stylesheet">
     <head>
         <title> London City Guide to College Graduates </title>
+        <meta name="keywords" content="London">
+        <link href="style.css" type="text/css" rel="stylesheet">
     </head>
-    <body style="font-size: 14px;">
-    <p style="font-family:verdana;">
-    <h1>
-      <Strong Center> London City Guide to College Graduates </center /storng>
+    <body>
+      <div class = "navbar">
+        <a href="#intro">London City Guide to College Graduates</a>
+        <a href="#BigBen">Big Ben & The Palace of Westminster</a>
+        <a href="#ThamesRiver">Thames River</a>
+        <a href="#Soccer">Soccer</a>
+        <a href="#Ramen">Kanedaya Ramen</a>
+      </div>
+
+    <div id = "intro">
+    <h1 id = "head1">
+      London City Guide to College Graduates
     </h1>
       One of the most vibrant cities in the world, London
       is the greatest city for college graduates to visit.
@@ -17,33 +25,38 @@
       Big Ben to 'pubbing' in the Strand. I have lived in London for several
       months, and I want to make few recommendations where young college Graduates
       should visit.
-    </p>
+    </div>
     <!-- should i also talk about pubs too? -->
+
+    <hr> </hr>
+
     <div id = "BigBen">
+      <img src="Parliament.jpg" alt="The parliament" height="267" width ="400">
         <h1>
           Big Ben & The Palace of Westminster
         </h1>
-        <img src="Parliament.jpg" alt="The parliament" height="267" width ="400">
         <P style="font-size: 14px;">
           Big Ben and the Place of Westminster are located in
           I will put some nformation on guided tour for Houses of Parliament, but I recommend to check the actual
           <a href="https://www.parliament.uk/visiting/visiting-and-tours/tours-of-parliament/guided-tours-of-parliament/"> website. </a>
         </p>
         <ul>
-            <li>
+            <li id ="Hours">
                 <strong> Hours of Operation : </strong> Monday to Friday 10am to 4pm (8:45am to 4:45pm on tour days)/ Saturday 8:45am to 4:45pm
             </li>
-            <li>
+            <li id="cost">
                 <strong> Cost : </strong> Advance: £25.50 / Same day: £28
             </li>
-            <li>
+            <li id="station">
               <strong> Station : </strong> Westminster Station
             </li>
         </ul>
     </div>
 
+    <hr> </hr>
+
     <div id = "ThamesRiver">
-            <img src="Thames.jpg" alt="Thames River Run" height="300" width ="400">
+      <img src="Thames.jpg" alt="Thames River Run" height="300" width ="400">
             <h1>
               Thames River
             </h1>
@@ -55,15 +68,26 @@
             </p>
             </div>
             <div id="map"> Tate Modern </div>
-            <p>
-            </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.22542758507!2d-0.10811113022461015!3d51.507595300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604a931761995%3A0x1ffc6f23e06b9be7!2sTate+Modern!5e0!3m2!1sen!2sus!4v1537282912721" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <hr> </hr>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.22542758507!2d-0.10811113022461015!3d51.507595300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604a931761995%3A0x1ffc6f23e06b9be7!2sTate+Modern!5e0!3m2!1sen!2sus!4v1537282912721" width="681" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
+            <div class="route1">
+              <h3> Route 1 </h3>
+              <p> Big Ben => South Bank => Tate Modern => London Bridge => Tower Bridge </p>
+            </div>
+            <div class="route2">
+              <h3> Route 2 </h3>
+              <p> Big Ben => South Bank => Tate Modern => Sky Garden => Tower of London </p>
+            </div>
+
+
+      <hr> </hr>
+
     <div id = "Soccer">
+      <img src="Soccer.jpg" alt="Emirates" height="400" width ="320">
           <h1>
             Soccer
           </h1>
-          <img src="Soccer.jpg" alt="Emirates" height="400" width ="320">
           <P style="font-size: 14px;">
             Of course you need to watch soccer in the U.K. There are six EPL football clubs in London
             (Arsenal, Chelsea, Crystal Palace, Fulham, Tottenham Hotspur, and West Ham United).
@@ -86,11 +110,12 @@
                 </li>
             </ol>
     </div>
+    <hr> </hr>
     <div id = "Ramen">
+      <img src="ramen.jpg" alt="Truffle Ramen" height="400" width ="296">
           <h1>
             Kanedaya Ramen
           </h1>
-          <img src="ramen.jpg" alt="Truffle Ramen" height="400" width ="296">
           <P style="font-size: 14px;">
               One word to describe this place - the Best Ramen Place in Europe.
               I went to Kanedaya Ramen place in Piccadilly three times a week.
@@ -151,12 +176,14 @@
           </table>
     </div>
     <hr> </hr>
-    <p>
-      Thanks for visiting my website! Can I get your email so we can be connected?
-      <form>
-          email : <br>
-          <input type="text" name="email"><br>
-      </form>
+
+    <p id="Thank">
+      &nbsp; Thanks for visiting my website! Can I get your email so we can be connected?
     </p>
+      <form id="Form">
+      <p id="email">
+          <strong> E-mail :  </strong> <input type="text" name="email"><br>
+      </p>
+      </form>
     </body>
 </html>
